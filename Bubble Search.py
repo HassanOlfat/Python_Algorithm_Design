@@ -1,4 +1,5 @@
 import math
+arry=[5,9,10,20,35,50,60,70,75]
 
 def BSearch(a,x,low,high):
     if low<=high:
@@ -14,7 +15,7 @@ def BSearch(a,x,low,high):
         return -1
 
 #################################################################
-arry=[5,9,10,20,35,50,60,70,75]
+
 x=60
 low=0
 high=len(arry) -1
